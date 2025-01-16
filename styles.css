@@ -98,6 +98,19 @@ body, h1, p, button {
     color: #99aab5;
   }
   
+  .tab-content {
+    padding: 20px;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content.active {
+    display: block;
+  }
+  
+
   .tab.active {
     background-color: indigo;
     color: #ffffff;
